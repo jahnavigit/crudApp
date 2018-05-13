@@ -8,7 +8,7 @@ public class DBConnectionUtility {
 
 	public static Connection getDBConnection() {
 
-		String DATASOURCE_CONTEXT = "java:comp/env/jdbc/crudDB";
+		String DATASOURCE_CONTEXT = "java:jboss/jdbc/crudDB";
 
 		Connection result = null;
 		try {
